@@ -1,0 +1,11 @@
+
+> paypal@1.0.0 dev
+> next dev
+
+▲ Next.js 16.4.5 (Turbopack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.29.4:3001
+- Environments: .env.local
+✓ Ready in 1449ms
+✓ Running next.config.ts took 174ms
+[?25h

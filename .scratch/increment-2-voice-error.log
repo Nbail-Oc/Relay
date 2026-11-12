@@ -1,0 +1,12 @@
+[32m2026-11-11 17:22:04.412[0m | [1mINFO    [0m | [36mpipecat[0m:[36m<module>[0m:[36m54[0m - [1m\u14da\u160f\u15e2 Pipecat 1.15.0 (Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]) \u14da\u160f\u15e2[0m
+Traceback (most recent call last):
+  File "C:\Users\thang\Downloads\PAYPAL\voice_runtime\agent.py", line 100, in <module>
+    main()
+  File "C:\Users\thang\Downloads\PAYPAL\voice_runtime\.venv\Lib\site-packages\pipecat\runner\run.py", line 2215, in main
+    _print_dev_runner_banner()
+  File "C:\Users\thang\Downloads\PAYPAL\voice_runtime\.venv\Lib\site-packages\pipecat\runner\run.py", line 449, in _print_dev_runner_banner
+    print(_style_banner_line("\u256d" + "\u2500" * (width + 2) + "\u256e"))
+  File "C:\Users\thang\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-54: character maps to <undefined>

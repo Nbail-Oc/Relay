@@ -1,0 +1,33 @@
+{
+  "name": "paypal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node scripts/dev.mjs dev",
+    "build": "next build",
+    "start": "node scripts/dev.mjs start",
+    "test": "node --test tests/*.test.js",
+    "voice": "python -X utf8 voice_runtime/agent.py -t webrtc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@ark-ui/react": "^5.40.0",
+    "@pipecat-ai/client-js": "^1.16.0",
+    "@pipecat-ai/small-webrtc-transport": "^1.11.2",
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.119.0",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}

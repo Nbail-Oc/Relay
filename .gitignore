@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.local/
+.env*
+!.env.example
+voice_runtime/.venv/
+voice_runtime/__pycache__/
+*.pyc
